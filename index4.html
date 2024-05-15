@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  
+
+
+    <script>
+//       var origpass = 123
+// var pasword = prompt('Enter a pasword')
+// var pasagain = prompt('confirm your password')
+
+
+// if(pasword==origpass ){
+//     document.write('Correct! you pasword is matched to your original pasword')
+// }else if(pasagain==origpass){
+//     document.write('Incorrect password')
+// }
+// else {
+//     document.write('please enter a password')
+
+// }
+
+
+
+// var pass1 = prompt("First ");
+// var pass2 = prompt ("last");
+
+// var org = 123;
+
+// if (  pass1 == org && pass2 == org){
+//     document.write("coore")} 
+// else if ( pass1 == ""){
+//     document.write("input")
+// }
+// else{
+// document.write("wr")
+// }
+
+var num = prompt("Table");
+
+
+
+for ( var i = 1; i <= 13 ; i++){
+      document.write ( "<br>"+ num + " X " + i +" =" + num * i);}
+//     // document.write( num * i);
+
+ var firstNames = ["BlueRay ", "Upchuck ", "Lojack ", "Gizmo ", "Do-Rag "];
+ var lastNames = ["Zzz", "Burp", "Dogbone", "Droop"];
+ var fullNames = [];
+ for (var i = 0; i < firstNames.length; i++) {
+ for (var j = 0; j < lastNames.length; j++) {
+ fullNames.push(firstNames[i] + lastNames[j]);
+ }
+ }
+console.log(fullNames)
+
+var greeting
+var hour=prompt('Enter passed hour')
+
+if(hour<=13){
+    greeting='Good day'
+    document.write(greeting)
+
+}else if(hour>13 && hour<=24){
+    greeting='Good evening'
+    document.write(greeting)
+ 
+}else{
+    document.write('Enter correct hour ')}
+
+
+
+// var num=[1, 2, 3, 4, 5, 6]
+ 
+// var check = 3
+// var sa =2
+// for (var i = 0; i <num.length; i++){
+//     if(num[i]=== check)
+//     sa=20
+//      break
+
+// }
+// if(sa==20){
+//     alert('yes')
+// }else{
+//     alert('not')
+// }
+
+
+// var number = [1, 2, 7, 4, 5];
+// var check = 7;
+// var flag = 10
+// for(var i = 0; i < number.length; i++){
+//     if(number[i] === check ){
+//       flag =  20
+//      break
+// }
+// }
+// if(flag == 20){
+//     alert('found')
+// }else{
+//     alert('not found')
+// }
+
+var animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+// animals = animals.tolowercase();
+console.log(animals.slice(2));
+// Expected output: Array ["ant", "bison", "camel", "duck", "elephant"]
+
+// console.log(animals.pop());
+
+// animals.pop ()
+console.log(animals)
+// Expected output: Array ["camel", "duck", "elephant"]
+animals.shift();
+console.log(animals)
+
+// Expected output: Array ["camel", "duck"]
+
+animals.unshift('ali');
+console.log(animals)
+
+// Expected output: Array ["bison", "camel", "duck", "elephant"]
+// animals = animals.toUpperCase();
+
+animals.push('hli','jjj');
+console.log(animals)
+
+// Expected output: Array ["duck", "elephant"]
+
+// console.log(animals.slice(2, -1));
+// // Expected output: Array ["camel", "duck"]
+
+
+// let str = "nu";
+
+// for (let i = 1; i < 9; i++) {
+//   str = str + i;
+// }
+
+// console.log(str);
+// Expected output: "012345678"
+
+// var cityToCheck ="Tucson"
+// var cleanestCities = ["Cheyenne", "Santa Fe", "Tucson", "Great Falls", "Honolulu"]
+//  var matchFound = 1;
+//  for (var i = 0; i <= 4; i++){
+//  if (cityToCheck === cleanestCities[i]) 
+//  matchFound = 2;
+// break
+
+//  }if(matchFound=2){
+//     alert('it is clean')
+//  }else{
+//     alert('dirty')
+//  }
+
+ 
+
+     </script>
+ </body>
+ </html>
